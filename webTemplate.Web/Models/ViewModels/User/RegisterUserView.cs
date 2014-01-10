@@ -14,7 +14,7 @@ namespace webTemplate.Web.Models.ViewModels.User
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Confirm password error")]
-        [System.Web.Mvc.Compare("Password", ErrorMessage = "Password doesn't match")]
+        [Compare("Password", ErrorMessage = "Password doesn't match")]
         public string ConfirmPassword { get; set; }
 
         public string Captcha { get; set; }

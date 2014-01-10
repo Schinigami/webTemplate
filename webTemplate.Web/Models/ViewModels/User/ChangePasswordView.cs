@@ -19,7 +19,7 @@ namespace webTemplate.Web.Models.ViewModels.User
         public string NewPassword { get; set; }
 
         [Required(ErrorMessage = "Enter confirm password")]
-        [System.Web.Mvc.Compare("NewPassword", ErrorMessage = "Password doesn't match")]
+        [Compare("NewPassword", ErrorMessage = "Password doesn't match")]
         public string ConfirmPassword { get; set; }
     }
 }

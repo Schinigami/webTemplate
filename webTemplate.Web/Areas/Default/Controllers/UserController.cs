@@ -14,10 +14,6 @@ namespace webTemplate.Web.Areas.Default.Controllers
 {
     public class UserController : DefaultController
     {
-        private static string AvatarFolder = "/Content/files/avatars/";
-
-        private static string AvatarSize = "AvatarSize";
-
         public ActionResult Index(int id = 0)
         {
             if (id == 0)
