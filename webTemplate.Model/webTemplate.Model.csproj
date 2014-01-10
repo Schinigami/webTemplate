@@ -85,7 +85,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tool\Tool.csproj">
+    <ProjectReference Include="..\Common.Tools\Tool\Tool.csproj">
       <Project>{2755dee8-1af1-41cc-b798-1eed42a9581d}</Project>
       <Name>Tool</Name>
     </ProjectReference>

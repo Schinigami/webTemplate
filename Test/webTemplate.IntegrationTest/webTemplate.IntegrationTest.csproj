@@ -97,7 +97,7 @@
       <Project>{6b127020-1bcc-4d06-a290-9e30726fb10b}</Project>
       <Name>GenerateData</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Tool\Tool.csproj">
+    <ProjectReference Include="..\..\Common.Tools\Tool\Tool.csproj">
       <Project>{2755dee8-1af1-41cc-b798-1eed42a9581d}</Project>
       <Name>Tool</Name>
     </ProjectReference>

@@ -284,11 +284,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common.Tools\ManageAttribute\ManageAttribute.csproj">
-      <Project>{05960685-9a37-4b71-a94e-d009358aba71}</Project>
-      <Name>ManageAttribute</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tool\Tool.csproj">
+    <ProjectReference Include="..\Common.Tools\Tool\Tool.csproj">
       <Project>{2755dee8-1af1-41cc-b798-1eed42a9581d}</Project>
       <Name>Tool</Name>
     </ProjectReference>
